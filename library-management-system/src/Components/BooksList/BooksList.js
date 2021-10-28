@@ -7,7 +7,7 @@ export default function BooksList() {
 	const [BooksList, setBooksList] = useState([]);
 	useEffect(() => {
 		axios
-			.get("http://localhost:8000/books/all")
+			.get("http://localhost:8000/books/get")
 			.then((response) => {
 				setBooksList(response.data);
 			})
