@@ -1,6 +1,5 @@
 import React from "react";
 import "./Book.css";
-import { Link } from "react-router-dom";
 
 export default function Book(props) {
 	return (
@@ -9,11 +8,11 @@ export default function Book(props) {
 			<img src={props.book_image} alt="" className="img" />
 			<p className="margin-top">By - {props.book_author}</p>
 			<div className="buttons-div">
-				<Link className="buttons" to={`view/${props.book_id}`}>
-					View
-				</Link>
-				<a className="buttons" href="https://youtu.be/iik25wqIuFo">
-					Borrow
+				<a className="buttons" href="#">
+					IDK
+				</a>
+				<a className="buttons" href="#">
+					IDK
 				</a>
 			</div>
 		</div>

@@ -20,7 +20,6 @@ export default function BooksList() {
 				return (
 					<Book
 						key={i}
-						book_id={book.book_id}
 						book_name={book.book_name}
 						book_author={book.book_author}
 						book_desc={book.book_desc}
