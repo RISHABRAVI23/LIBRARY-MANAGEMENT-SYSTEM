@@ -12,7 +12,9 @@ export default function Book(props) {
 				<Link className="buttons" to={`/view/${props.book_id}`}>
 					View Info
 				</Link>
-				<a className="buttons" href="https://youtu.be/iik25wqIuFo">
+				<a
+					className="buttons"
+					href="http://www.lasesp.com/article/16357757662515460/borrow_book">
 					Borrow
 				</a>
 			</div>
