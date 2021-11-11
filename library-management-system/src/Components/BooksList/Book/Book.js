@@ -6,7 +6,11 @@ export default function Book(props) {
 	return (
 		<div className="book-card">
 			<p className="bold-underline">{props.book_name}</p>
-			<img src={props.book_image} alt="" className="img" />
+			<img
+				src={`http://localhost:8000${props.book_image}`}
+				alt=""
+				className="img"
+			/>
 			<p className="margin-top">By - {props.book_author}</p>
 			<div className="buttons-div">
 				<Link className="buttons" to={`/view/${props.book_id}`}>
