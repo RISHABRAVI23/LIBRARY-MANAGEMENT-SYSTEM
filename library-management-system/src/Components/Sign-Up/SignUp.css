@@ -1,0 +1,23 @@
+.sign-up-container {
+	background-color: var(--secondary-color);
+	margin: 0px 375px;
+	color: var(--primary-color);
+	height: 70vh;
+}
+.sign-up-heading {
+	text-align: center;
+	color: var(--primary-color);
+}
+.sign-up-form {
+	margin: 0px 100px;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+}
+.input-container {
+	display: flex;
+	justify-content: center;
+}
+input {
+	width: 100%;
+}
