@@ -18,16 +18,16 @@ export default function SignUp() {
 					<label htmlFor="email" className="animated-label">
 						Email Id
 					</label>
-					<input type="email" id="email" />
+					<input className="input" type="email" id="email" />
 				</div>
 				<div className="input-container">
 					<label htmlFor="username" className="animated-label">
 						Username
 					</label>
-					<input type="text" id="username" />
+					<input className="input" type="text" id="username" />
 				</div>
 				<button type="submit" onClick={submitForm}>
-					Submit
+					Sign Up
 				</button>
 			</form>
 		</div>
