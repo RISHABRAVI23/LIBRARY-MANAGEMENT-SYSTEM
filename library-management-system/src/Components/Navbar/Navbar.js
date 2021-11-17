@@ -1,5 +1,4 @@
 import React from "react";
-import "./Navbar.css";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -10,9 +9,9 @@ export default function Navbar() {
 		margin: "auto",
 	};
 	return (
-		<nav class="navbar navbar-dark" style={navStyle}>
-			<div class="container" style={centerLogo}>
-				<Link class="navbar-brand" to="/" style={centerLogo}>
+		<nav className="navbar navbar-dark" style={navStyle}>
+			<div className="container" style={centerLogo}>
+				<a className="navbar-brand" href="/" style={centerLogo}>
 					<svg
 						width="84"
 						height="25"
@@ -24,7 +23,7 @@ export default function Navbar() {
 							fill="#BCEDFC"
 						/>
 					</svg>
-				</Link>
+				</a>
 			</div>
 		</nav>
 	);

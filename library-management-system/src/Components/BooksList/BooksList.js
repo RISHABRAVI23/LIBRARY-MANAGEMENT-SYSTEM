@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./BooksList.css";
 import Book from "./Book/Book";
 
 export default function BooksList() {
